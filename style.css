@@ -1,0 +1,83 @@
+/* Styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.board {
+    display: inline-block;
+    margin: 20px;
+}
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    cursor: pointer;
+
+    /* Default color for unrevealed tiles */
+    background-color: #eee;
+
+    /* Default color for unrevealed tile text */
+    color: #333;
+}
+.revealed {
+    /* Color for revealed tiles */
+    background-color: #ccc;
+
+    /* Color for revealed tile text */
+    color: #000;
+}
+
+.revealed.one{
+    /* Color for revealed tile text */
+    color: blue;
+}
+
+.revealed.two{
+    /* Color for revealed tile text */
+    color: green;
+}
+
+.revealed.three{
+    /* Color for revealed tile text */
+    color: red;
+}
+
+.revealed.four{
+    /* Color for revealed tile text */
+    color: purple;
+}
+
+.revealed.five{
+    /* Color for revealed tile text */
+    color: darkred;
+}
+
+.revealed.six{
+    /* Color for revealed tile text */
+    color: teal;
+}
+
+.revealed.seven{
+    /* Color for revealed tile text */
+    color: magenta;
+}
+
+.revealed.eight{
+    /* Color for revealed tile text */
+    color: black;
+}
+
+.mine {
+    /* Color for mines */
+    background-image: url("bomb.svg");
+    background-size: contain;
+}
+.flag {
+    /* Color for flag */
+    background-image: url("red_flag.webp");
+    background-size: contain;
+}
